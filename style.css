@@ -1,0 +1,56 @@
+body {
+  background-image: url("./palmiers.jpg");
+  background-size: auto cover;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  background-repeat: repeat, no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: auto, cover;
+  color: #fff;
+  font-size: 13px;
+}
+
+.content {
+  position: relative;
+  width: 580px;
+  margin: 0 auto;
+}
+.bmenu {
+  padding: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 200px;
+  text-align: center;
+  vertical-align: center;
+  font-family: font-family: 'Roboto Mono', monospace;
+}
+.bmenu li {
+  font-size: 50px;
+  display: block;
+}
+
+.bmenu li a {
+  color: transparent;
+  display: block;
+  text-transform: uppercase;
+  text-shadow: 0px 0px 5px #fff;
+  letter-spacing: 1px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+}
+
+.bmenu:hover li a {
+  text-shadow: 0px 0px 5px #0d1a3a;
+}
+.bmenu li a:hover {
+  color: #fff;
+  text-shadow: 0px 0px 1px #fff;
+  padding-left: 10px;
+}
